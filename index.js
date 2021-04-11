@@ -17,6 +17,7 @@ function writeCards(listFriends, celebratedDay){
 
 writeCards(["Ada", "Brendan", "Ali"], "birthday");
 
+<<<<<<< HEAD
 
 
  function countDown(){
@@ -27,3 +28,12 @@ writeCards(["Ada", "Brendan", "Ali"], "birthday");
       i--;
 }
  }
+=======
+countDown(10)
+const countDown= 10;
+
+while (countDown > 10) {
+  console.log(countDown);
+console.log(countDown --);
+}
+>>>>>>> d60c33f996784e67c5093b3fca88fe5de4e9d869
