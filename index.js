@@ -6,9 +6,8 @@
 //     console.log(`thank u ${a[i]} for the wonderful ${a[1]}  gift!`);
 //   };return a;
 // };
-  let gratitudeCard = [];
 function writeCards(listFriends, celebratedDay){
-
+    let gratitudeCard = [];
     for (let i=0; i<listFriends.length;i++){
       gratitudeCard.push(`Thank you, ${listFriends[i]}, for the wonderful ${celebratedDay} gift!`);
     }
